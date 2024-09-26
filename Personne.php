@@ -50,7 +50,9 @@ $sarah = new Personne('Ghobrial', 'Sarah');
 echo "<pre>";
 var_dump($sarah);
 echo "</pre>";
-$sarah->__toString($sarah); 
+
+echo strval($sarah);
+ 
 $sarah2 = clone $sarah;
 
 $sarah2->increment();
